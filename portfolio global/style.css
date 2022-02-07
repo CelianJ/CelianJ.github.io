@@ -448,6 +448,7 @@ img{
     cursor: pointer;
     text-align: center;
     transition: all 0.3s ease;
+    color: var(--text-black-900);
 }
 
 .nav-menu .close-nav-menu:after{
