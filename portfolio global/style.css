@@ -907,6 +907,7 @@ img{
     font-size: 35px;
     cursor: pointer;
     transition: all 0.3s ease;
+    color: var(--text-black-900);
 }
 
 .projet-popup .pp-close:after{
