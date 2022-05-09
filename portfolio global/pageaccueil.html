@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset = "utf-8"/>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> <!--load all styles -->
+		<title>portfolio célian</title>
+    </head>
+    <body>
+        <!-- début header-->
+        <header class="header">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="double-div">
+                        <div class="hamburger-btn outer-shadow hover-in-shadow">
+                            <span></span>
+                        </div>
+                        <div class="coller" id="arrowAnim">
+                            <div class="arrowSliding">
+                            <div class="arrow"></div>
+                            </div>
+                            <div class="arrowSliding delay1">
+                            <div class="arrow"></div>
+                            </div>
+                            <div class="arrowSliding delay2">
+                            <div class="arrow"></div>
+                            </div>
+                            <div class="arrowSliding delay3">
+                            <div class="arrow"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="day-night outer-shadow hover-in-shadow">
+                        <i class="fas"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--fin header-->
+
+        <!-- début nav menu-->
+        <nav class="nav-menu font">
+            <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
+            <div class="nav-menu-inner">
+                <ul>
+                    <li><a href="#home" class="link-item inner-shadow active">home</a></li>
+                    <li><a href="#a-propos" class="link-item outer-shadow hover-in-shadow">A propos</a></li>
+                    <li><a href="#competences" class="link-item outer-shadow hover-in-shadow">Compétences</a></li>
+                    <li><a href="#projets" class="link-item outer-shadow hover-in-shadow">projets</a></li>
+                    <li><a href="#contact" class="link-item outer-shadow hover-in-shadow">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="fade-out-effect">
+        </div>
+        <!-- fin nav menu-->
+
+        <!--debut home section-->
+        <section class="home-section section active" id="home">
+            <!-- effects-->
+            <div class = "les-effets">
+                <div class = "effet effet-1">
+                </div>
+                <div class = "effet effet-2">
+                    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                </div>
+                <div class = "effet effet-3">
+                </div>
+                <div class = "effet effet-4">
+                </div>
+                <div class = "effet effet-5">
+                    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row full-screen align-items-center">
+                    <div class="home-text font">
+                        <p>Bienvenue,</p>
+                        <h2>Je m'appelle Célian</h2>
+                        <h1>Je suis en seconde année de BTS en option SLAM</h1>
+                        <a href="#a-propos" class="link-item btn-1 outer-shadow hover-in-shadow" style="margin-top: 30px; margin-left: 85px;">En savoir plus sur moi</a>
+                    </div>
+                    <div class="home-img">
+                        <div class="img-box">
+                            <img src="image-info.jpg" alt="image-info">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--fin home section-->
+
+        <!-- début section a propos-->
+        <section class = "about-section section font" id="a-propos">
+            <div class = container>
+                <div class = row>
+                    <div class = 'section-title'>
+                        <h2 data-heading="info">A propos de moi</h2>
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class = "apropos-img">
+                        <div class="img-box inner-shadow">
+                            <img scr="" class = "outer-shadow" alt="qui-suis-je">
+                        </div>
+                    </div>
+                    <div class = "apropos-info">
+                        <p><span>Je suis actuellement en deuxième année du BTS SIO des chartreux à Lyon dans le but d’intégrer la formation ICS afin de décrocher un diplôme d’ingénieur en cybersécurité. 
+                            L’informatique a été une révélation lors de mon année de terminale en cours d’ISN. Mon choix s’est précisé en classes préparatoires mathématiques et informatiques. Aujourd’hui je m’épanouis dans ma formation actuelle et notamment dans les matières informatiques. 
+                            Le métier de Pentester m’intéresse particulièrement, de nature créative et attentionné j’affectionne le fait de trouver et corriger des erreurs dans les codes. Mais également les recherches à mener pour comprendre et réaliser l'investigation nécéssaire pour découvrir les failles des systèmes.
+                        </span></p>
+                        <button class = "btn-1 outer-shadow hover-in-shadow">
+                            <a download href="JOUNIN CELIAN CV.pdf" class="btn">télécharger mon CV <i class =" fas fa-download"></i></a>
+                        </button> 
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- fin section a propos-->
+
+        <!-- debut section savoir faire-->
+        <section class="savoir-section section" id="competences">
+            <div class="container">  
+                <div class = row>
+                    <div class = 'section-title font'>
+                        <h2 data-heading="Compétences" >ce que je connais</h2>
+                    </div>
+                </div>
+                <table width="900vh;"  style="border-spacing: 25px; margin-left: auto; margin-right: auto; max-width: 80%">
+                    <tr ><td colspan="2" style="padding: 0 50px;" class= "semi-title font">Mes connaissances Web</td></tr>
+                <tr>
+                    <td width="33%">
+                        <div class="service-item-inner outer-shadow">
+                            <div class="icon inner-shadow">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <h3 class= "font">HTML</h3>
+                        </div>
+                    </td>
+                    <td width="33%">
+                        <div class="service-item-inner outer-shadow">
+                            <div class="icon inner-shadow">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <h3 class= "font">CSS</h3>
+                        </div>
+                    </td>
+                    <td width="33%">
+                        <div class="service-item-inner outer-shadow">
+                            <div class="icon inner-shadow">
+                                <i class="fab fa-php"></i>
+                            </div>
+                            <h3 class= "font">PHP</h3>
+                        </div>
+                    </td>
+                        
+                </tr>
+
+                <tr><td colspan="2" style="padding: 0 50px;" class= "semi-title font">Mes connaissances d&eacute;veloppement</td></tr>
+                <tr>
+                    <td>
+                        <div class="service-item-inner outer-shadow">
+                            <div class="icon inner-shadow">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <h3 class= "font">JAVA</h3>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="service-item-inner outer-shadow">
+                            <div class="icon inner-shadow">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <h3 class= "font">PYTHON</h3>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="service-item-inner outer-shadow">
+                            <div class="icon inner-shadow">
+                                <i class="fab fa-android"></i>
+                            </div>
+                            <h3 class= "font">ANDROID</h3>
+                        </div>
+                    </td>
+                        
+                </tr>
+
+                <tr><td colspan="2" style="padding: 0 50px;" class= "semi-title font">Mes connaissances base de donn&eacute;es</td></tr>
+                <tr>
+                    <td>
+                        <div class="service-item-inner outer-shadow">
+                            <div class="icon inner-shadow">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h3 class= "font">SQL</h3>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="service-item-inner outer-shadow">
+                            <div class="icon inner-shadow">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h3 class= "font">mySQL</h3>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="service-item-inner outer-shadow">
+                            <div class="icon inner-shadow">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <h3 class= "font">PL/SQL</h3>
+                        </div>
+                    </td>
+                </tr>
+                </table>
+                <div class="feuille" >
+                    <p class= "semi-title font">Ma feuille de comp&eacute;tences</p>
+                    <br>
+                    <button class = "btn-1 outer-shadow hover-in-shadow">
+                        <a download href="feuille_de_compétences_Célian_jounin.pdf" class="btn">télécharger ma feuille de comp&eacute;tences <i class =" fas fa-download"></i></a>
+                    </button> 
+                </div>
+            </div>
+        </section>
+
+
+        <!-- fin section savoir faire-->
+
+        <!-- début section projets-->
+        <section class="projets-section section" id = "projets">
+            <div class="container">  
+                <div class = row>
+                    <div class = 'section-title font'>
+                        <h2 data-heading="Projets">Mes différents travaux</h2>
+                    </div>
+                </div>
+                <!-- début filtre projet-->
+                    <div class = "row">
+                        <div class = "filtre-projet font">
+                            <span class="filtre-item outer-shadow active" data-target="all">all</span>
+                            <span class="filtre-item" data-target="PPE">PPE</span>
+                            <span class="filtre-item" data-target="stage">stages</span>
+                            <span class="filtre-item" data-target="veille">veille</span>
+                            <span class="filtre-item" data-target="AP">AP</span>
+                        </div>
+                    </div>
+                <!-- fin filtre projet-->
+
+                <!-- début filtre items-->
+                <div class="row portfolio-items font">
+                    <!-- début filtre item-->
+                    <div class="portfolio-item" data-category="PPE">
+                        <div class="portfolio-item-inner outer-shadow">
+                            <div class="portfolio-item-img">
+                                <img src="tableau-snellen.jpg" alt="portfolio" height="175" width="500" data-screenshots="tableau-snellen.jpg">
+                                <span class="view-projet">en savoir plus</span>
+                            </div>
+                            <p class="portfolio-item-title">PPE mobile</p>
+                            <div class="portfolio-item-details">
+                                <div class="row">
+                                    <div class="description">
+                                        <h3>R&eacute;sum&eacute; :</h3>
+                                        <p>Voici mon application mobile</p>
+                                        <p style="text-align: justify;">Le principe de l’application est de faire effectuer un test de vision a une personne. Celle-ci devra positionner l’appareil a une certaine distance d’elle puis se verra afficher une échelle de Monoyer. Lorsque le test commencera, l’appareil devra être en mode paysage. Alors une série de lettres apparaitra avec une certaine taille de police. La personne devra alors cliquez sur la lettre demandée à l’aide d’une souris. Puis l’opération continue réduisant petit a petit la taille des caractères. Une fois toute l’échelle faite le score du testé s’affichera. Avant de réaliser le test le patient pourra s’identifier sur l’application et ainsi pouvoir consulter ses scores. De plus un paramétrage de la souris sera disponible et un point lumineux indiquera si elle est bien branché ou pas.</p>
+                                    </div>
+                                    <div class="info">
+                                        <h3>info complémentaire</h3>
+                                        <ul>
+                                            <li>Date - <span>2022</span></li>
+                                            <li>languages - <span>Android</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="PPE">
+                        <div class="portfolio-item-inner outer-shadow">
+                            <div class="portfolio-item-img">
+                                <img src="diagnostic-ordinateur.jpg" alt="portfolio" height="175" width="500" data-screenshots="diagnostic-ordinateur.jpg">
+                                <span class="view-projet">en savoir plus</span>
+                            </div>
+                            <p class="portfolio-item-title">PPE projet l&eacute;ger</p>
+                            <div class="portfolio-item-details">
+                                <div class="row">
+                                    <div class="description">
+                                        <h3>R&eacute;sum&eacute; :</h3>
+                                        <p>Voici une application legère</p>
+                                        <p style="text-align: justify;">Le but de l’application est de faire un état général des postes sous mac os des visiteurs médicaux
+                                            L’applicatif effectuera un scan des composants de la machine puis retransmettra ces informations sur une page
+                                            web grâce à des graphiques. Une liste de tout les postes sera disponible et chaque poste aura son détail
+                                            particulier.</p>
+                                    </div>
+                                    <div class="info">
+                                        <h3>info complémentaire</h3>
+                                        <ul>
+                                            <li>Date - <span>2022</span></li>
+                                            <li><a download href="cahier_des_charges_application_client_leger_Célian_Jounin.pdf" class="btn">télécharger mon cahier des charges <i class =" fas fa-download"></i></a><li></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="stage">
+                        <div class="portfolio-item-inner outer-shadow">
+                            <div class="portfolio-item-img">
+                                <img src="ambition.jpg" alt="portfolio" height="175" width="500" data-screenshots="ambition.jpg">
+                                <span class="view-projet">en savoir plus</span>
+                            </div>
+                            <p class="portfolio-item-title">Stage 1ére ann&eacute;e</p>
+                            <div class="portfolio-item-details">
+                                <div class="row">
+                                    <div class="description">
+                                        <h3>R&eacute;sum&eacute; :</h3>
+                                        <p>Voici mon rapport de stage de ma 1ère ann&eacute;e</p>
+                                    </div>
+                                    <div class="info">
+                                        <h3>info complémentaire</h3>
+                                        <ul>
+                                            <li>Date - <span>31/05/2021 – 02/07/2021</span></li>
+                                            <li><a download href="rapport_de_stage_celian_JOUNIN_ACS.pdf" class="btn">télécharger mon rapport <i class =" fas fa-download"></i></a><li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="stage">
+                        <div class="portfolio-item-inner outer-shadow">
+                            <div class="portfolio-item-img">
+                                <img src="snps.png" alt="portfolio" height="175" width="500" data-screenshots="snps.png">
+                                <span class="view-projet">en savoir plus</span>
+                            </div>
+                            <p class="portfolio-item-title">Stage 2nd ann&eacute;e</p>
+                            <div class="portfolio-item-details">
+                                <div class="row">
+                                    <div class="description">
+                                        <h3>R&eacute;sum&eacute; :</h3>
+                                        <p>Voici mon rapport de stage de ma 2nd ann&eacute;e</p>
+                                    </div>
+                                    <div class="info">
+                                        <h3>info complémentaire</h3>
+                                        <ul>
+                                            <li>Date - <span>2022</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="veille">
+                        <div class="portfolio-item-inner outer-shadow">
+                            <div class="portfolio-item-img">
+                                <img src="Hololance2.jpg" alt="lunettes de RA" height="175" width="500" data-screenshots="Hololance2.jpg">
+                                <span class="view-projet">en savoir plus</span>
+                            </div>
+                            <p class="portfolio-item-title">ma veille</p>
+                            <div class="portfolio-item-details">
+                                <div class="row">
+                                    <div class="description">
+                                        <h3>R&eacute;sum&eacute; :</h3>
+                                        <p>Voici ma veille technologique sur les lunettes de r&eacute;alit&eacute; augment&eacute;e</p>
+                                        <p style="text-align: justify;">Au cours de celle-ci, je me suis renseigné et maintenu informé grâce à différentes méthodes. La première méthode consistait à chercher des informations sur internet et notamment sur le moteur de recherche Google. Cette approche m’a permis de comprendre cette technologie plus en profondeur. En plus de ces initiatives informationnelles, j’ai utilisé l’outil de surveillance Google Alerts avec des mises à jour quotidiennes qui m’a permis de recevoir des notifications sur l’actualité quand un article sur un sujet précis est publié en ligne. En addition a cet outil je suis souvent allé sur le site RA’Pro et notamment <a href="https://www.augmented-reality.fr/la-veille/">RA’Pro veille</a>, un site qui recense presque tous les articles intéressants parlant de la réalité augmentée. Ces deux méthodes m’ont permis de me tenir au courant des dernières avancés sur le sujet quasiment au jour le jour.
+                                            Cette veille technologique m’a permis d’être plus efficace dans ma recherche d’informations ainsi que de mieux englober et appréhender l’évolution et le futur de la réalité augmentée. En effet cette technologie est déjà utilisée dans de nombreux domaines et permet la formation de projets novateurs et révolutionnaires. Cependant, sa démocratisation et son utilisation dans la vie courante est freinée, étant donné que le grand public reste sceptique de l’utilité réelle de cette technologie ainsi la faible connaissance de ses domaines d’applications. Cette technologie reste considérée plus comme un outil de luxe ou de divertissement ainsi qu’un projet encore futuriste alors qu’elle est déjà tout autour de nous dans pleins d’applications différentes allant du monde personnel a la médecine en passant par le monde professionnel et militaire.
+                                            J’ai choisi cette technologie car on peut en voir une apparition de plus en plus présente dans le monde professionnel. On peut donc conjecturer que dans un futur proche, il s’agira d’un nouvel outil dans les entreprises et donc afin d’anticiper ce changement et de rester informé sur un probable futur dans la manière de travailler.
+                                        </p>
+                                    </div>
+                                    <div class="info">
+                                        <h3>Comp&eacute;tences</h3>
+                                        <ul>
+                                            <li>Organiser son développement professionnel</li>
+                                            <li><span>▸ Mettre en oeuvre des outils et stratégies de veille informationnelle</span><li>
+                                        </ul>
+                                        <br>
+                                        <br>
+                                        <h3>informations complémentaires</h3>
+                                        <ul>
+                                            <li>Date - <span>2021-2022</span></li>
+                                            <li><a download href="veille_techno_celian_jounin.pdf" class="btn">télécharger ma veille <i class =" fas fa-download"></i></a><li>
+                                        </ul>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="AP">
+                        <div class="portfolio-item-inner outer-shadow">
+                            <div class="portfolio-item-img">
+                                <img src="prixy.png" alt="portfolio" height="175" width="500" data-screenshots="prixy.png">
+                                <span class="view-projet">en savoir plus</span>
+                            </div>
+                            <p class="portfolio-item-title">Projet Prixy 1ère partie</p>
+                            <div class="portfolio-item-details">
+                                <div class="row">
+                                    <div class="description">
+                                        <h3>R&eacute;sum&eacute; :</h3>
+                                        <p>Voici un projet r&eacute;alis&eacute; durant ma premi&egrave;re ann&eacute;e de BTS</p>
+					                    <p style="text-align: justify;">Au cours de celui-ci, nous avons du en groupe r&eacute;aliser en groupe une maquette d'un applicatif avec des demandes pr&eacute;cises pour un client fictif, Prixy, jou&eacute; par notre professeur. De plus ce travail devait &ecirc;tre fait en groupe de 4-5 avec des méthodes de chefferie de projet et donc avec un chef de projet par groupe.
+					                    </p>
+                                    </div>
+                                    <div class="info">
+                                        <h3>Comp&eacute;tences</h3>
+                                        <ul>
+                                            <li>Développer la présence en ligne de l’organisation</li>
+                                            <li><span>▸Participer à l’évolution d’un site Web exploitant les données de l’organisation</span><li>
+                                            <br>
+                                            <li>Travailler en mode projet</li>
+                                            <li><span>▸ Analyser les objectifs et les modalités d’organisation d’un projet</span><li>
+                                        </ul>
+                                        <br>
+                                        <br>
+                                        <h3>informations complémentaires</h3>
+                                        <ul>
+                                            <li>Date - <span>01/01/2021-31/01/2021</span></li>
+                                            <li><a download href="Prixy-Maquette_site_web_Ordinateur.pdf" class="btn">télécharger le document technique <i class =" fas fa-download"></i></a><li>
+                                        </ul>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="AP">
+                        <div class="portfolio-item-inner outer-shadow">
+                            <div class="portfolio-item-img">
+                                <img src="prixy.png" alt="portfolio" height="175" width="500" data-screenshots="prixy.png">
+                                <span class="view-projet">en savoir plus</span>
+                            </div>
+                            <p class="portfolio-item-title">Projet Prixy 2nd partie</p>
+                            <div class="portfolio-item-details">
+                                <div class="row">
+                                    <div class="description">
+                                        <h3>R&eacute;sum&eacute; :</h3>
+                                        <p>Voici un projet r&eacute;alis&eacute; durant ma premi&egrave;re ann&eacute;e de BTS</p>
+					                    <p style="text-align: justify;">Au cours de celui-ci, nous avons du en groupe r&eacute;aliser en groupe une maquette d'un applicatif avec des demandes pr&acute;cises pour un client fictif, Prixy, jou&acute; par notre professeur. De plus ce travil devait &ecirc;tre fait en groupe de 4-5 avec des méthodes de chefferie de projet et donc avec un chef de projet par groupe.
+					                    </p>
+                                    </div>
+                                    <div class="info">
+                                        <h3>Comp&eacute;tences</h3>
+                                        <ul>
+                                            <li>Répondre aux incidents et aux demandes d’assistance et d’évolution</li>
+                                            <li><span>▸ Traiter des demandes concernant les applications</span><li>
+                                            <br>
+                                            <li>Développer la présence en ligne de l’organisation</li>
+                                            <li><span>▸ Participer à la valorisation de l’image de l’organisation sur les médias numériques en tenant compte du cadre juridique et des enjeux économiques</span><li>
+                                            <br>
+                                            <li>Travailler en mode projet</li>
+                                            <li><span>▸ Planifier les activités</span><li>
+                                            <br>
+                                            <li>Mettre à disposition des utilisateurs un service informatique</li>
+                                            <li><span>▸ Déployer un service</span><li></li>
+                                        </ul>
+                                        <br>
+                                        <br>
+                                        <h3>informations complémentaires</h3>
+                                        <ul>
+                                            <li>Date - <span>01/01/2021-31/01/2021</span></li>
+                                            <li><a download href="Prixy-compte_rendu.pdf" class="btn">télécharger le document technique <i class =" fas fa-download"></i></a><li>
+                                        </ul>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="AP">
+                        <div class="portfolio-item-inner outer-shadow">
+                            <div class="portfolio-item-img">
+                                <img src="gouvernement.png" alt="portfolio" height="175" width="500" data-screenshots="gouvernement.png">
+                                <span class="view-projet">en savoir plus</span>
+                            </div>
+                            <p class="portfolio-item-title">Audit de site</p>
+                            <div class="portfolio-item-details">
+                                <div class="row">
+                                    <div class="description">
+                                        <h3>R&eacute;sum&eacute; :</h3>
+                                        <p>Voici un audit de site afin de v&eacute;rifier qu'il respecte bien le r&egrave;glement de la CNIL</p>
+					                    <p style="text-align: justify;">Au cours de celui-ci, nous avons d&ucirc; investiger sur le site afin d'essayer de retrouver toutes les reglementations de la CNIL puis de faire une conclusion sur ce qu'il y manquait ou non sur le site
+					                    </p>
+                                    </div>
+                                    <div class="info">
+                                        <h3>Comp&eacute;tences</h3>
+                                        <ul>
+                                            <li>Gérer le patrimoine informatique</li>
+                                            <li><span>▸ Vérifier le respect des règles d’utilisation des ressources</span><li>
+                                        </ul>
+                                        <br>
+                                        <br>
+                                        <h3>informations complémentaires</h3>
+                                        <ul>
+                                            <li>Date - <span>décembre 2020</span></li>
+                                            <li><a download href="audit_site_célian_Jounin.pdf" class="btn">télécharger le document technique <i class =" fas fa-download"></i></a><li>
+                                        </ul>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="AP">
+                        <div class="portfolio-item-inner outer-shadow">
+                            <div class="portfolio-item-img">
+                                <img src="ccna.png" alt="portfolio" height="175" width="500" data-screenshots="ccna.png">
+                                <span class="view-projet">en savoir plus</span>
+                            </div>
+                            <p class="portfolio-item-title">Recherche de certification</p>
+                            <div class="portfolio-item-details">
+                                <div class="row">
+                                    <div class="description">
+                                        <h3>R&eacute;sum&eacute; :</h3>
+                                        <p>Voici une recherche de certification que j'ai pu effectuer</p>
+					                    <p style="text-align: justify;">Au cours de celle-ci, j'ai pu m'interroger sur les diff&eacute;rentes certifications et sur lesquelles pourraient m'int&eacute;resser ou m'&ecirc;tre utiles plus tard.
+                                    </div>
+                                    <div class="info">
+                                        <h3>Comp&eacute;tences</h3>
+                                        <ul>
+                                            <li>Organiser son développement professionnel</li>
+                                            <li><span>▸ Développer son projet professionnel</span><li>
+                                        </ul>
+                                        <br>
+                                        <br>
+                                        <h3>informations complémentaires</h3>
+                                        <ul>
+                                            <li>Date - <span>décembre 2020</span></li>
+                                            <li><a download href="certification_celian_Jounin.pdf" class="btn">télécharger le document technique <i class =" fas fa-download"></i></a><li>
+                                        </ul>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="AP">
+                        <div class="portfolio-item-inner outer-shadow">
+                            <div class="portfolio-item-img">
+                                <img src="formation-green-IT-informatique-eco-responsable-geneve.jpg" alt="portfolio" height="175" width="500" data-screenshots="formation-green-IT-informatique-eco-responsable-geneve.jpg">
+                                <span class="view-projet">en savoir plus</span>
+                            </div>
+                            <p class="portfolio-item-title">Dm contraites éthique et environnementales</p>
+                            <div class="portfolio-item-details">
+                                <div class="row">
+                                    <div class="description">
+                                        <h3>R&eacute;sum&eacute; :</h3>
+                                        <p>Voici un dm traitant des sujets de l'éthique et de l'environnement sur la productions des ordinateurs</p>
+					                    <p style="text-align: justify;">Au cours de celui-ci, nous avons du nous interroger sur diff&eacute;rents points lors de l'achat d'un ordinateur. Notamment lors du recyclage de celui-ci ou de sa durée de vie ainsi que de l'OS utilisé. 
+                                    </div>
+                                    <div class="info">
+                                        <h3>Comp&eacute;tences</h3>
+                                        <ul>
+                                            <li>Gérer le patrimoine informatique</li>
+                                            <li><span>▸ Recenser et identifier les ressources numériques</span><li>
+                                        </ul>
+                                        <br>
+                                        <ul>
+                                            <li>Répondre aux incidents et aux demandes d’assistance et d’évolution</li>
+                                            <li><span>▸ Traiter des demandes concernant les services réseau et système, applicatif</span><li>
+                                        </ul>
+                                        <br>
+                                        <br>
+                                        <h3>informations complémentaires</h3>
+                                        <ul>
+                                            <li>Date - <span>décembre 2021</span></li>
+                                            <li><a download href="DM_Contraintes_ethiques_et_environnementales_Célian Jounin.pdf" class="btn">télécharger le document technique <i class =" fas fa-download"></i></a><li>
+                                        </ul>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-inner outer-shadow">
+                            <div class="portfolio-item-img">
+                                <img src="portfolio-preview.png" alt="portfolio" height="175" width="500" data-screenshots="portfolio-preview.png">
+                                <span class="view-projet">en savoir plus</span>
+                            </div>
+                            <p class="portfolio-item-title">mon portfolio</p>
+                            <div class="portfolio-item-details">
+                                <div class="row">
+                                    <div class="description">
+                                        <h3>R&eacute;sum&eacute; :</h3>
+                                        <p>Voici mon portfolio r&eacute;alis&eacute; a la main</p>
+                                    </div>
+                                    <div class="info">
+                                        <h3>info complémentaire</h3>
+                                        <ul>
+                                            <li>Date - <span>2022</span></li>
+                                            <li>languages - <span>html, css, javascript</span></li>
+                                            <li>Web - <span><a href="#">https://celian.jounin.net</a></span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fin filtre item-->
+                </div>
+                <!-- fin filtre items-->
+                
+            </div>
+        </section>
+        <!-- début section projets-->
+
+        <!-- début section contact-->
+        <section class="contact-section section font" id = "contact">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2 data-heading="Contact">Me contacter</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contact-item">
+                        <div class="contact-item-inner outer-shadow">
+                            <i class="fas fa-phone"></i>
+                            <span>Numéro</span>
+                            <p>01 02 03 04 05</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-inner outer-shadow">
+                            <i class="fas fa-envelope"></i>
+                            <span>E-mail</span>
+                            <p>jounincelian69@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-inner outer-shadow">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Adresse</span>
+                            <p>Les Chartreux</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="w-50">
+                                    <div class="input-group outer-shadow hover-in-shadow">
+                                        <input type="text" placeholder="Name" class="input-control"></input>
+                                    </div>
+                                    <div class="input-group outer-shadow hover-in-shadow">
+                                        <input type="text" placeholder="Email" class="input-control"></input>
+                                    </div>
+                                    <div class="input-group outer-shadow hover-in-shadow">
+                                        <input type="text" placeholder="Sujet" class="input-control"></input>
+                                    </div>
+                                </div>
+                                <div class="w-50">
+                                    <div class="input-group outer-shadow hover-in-shadow">
+                                        <textarea class="input-control" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="submit-btn">
+                                    <button type="submit" class="btn-1 outer-shadow hover-in-shadow">Envoyer le Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fin section contact-->
+
+        <!-- début popup section-->
+        <div class="pp projet-popup">
+            <div class="pp-details">
+                <div class="pp-details-inner">
+                    <div class="pp-title font">
+                        <h2>Mon portfolio</h2>
+                        <p>Categorie - <span class="pp-projet-categorie">All</span></p>
+                    </div>
+                    <div class="pp-projet-details font">
+                        <div class="row">
+                            <div class="description">
+                                <h3>R&eacute;sum&eacute; :</h3>
+                                <p>Voici une application lourde</p>
+                            </div>
+                            <div class="info">
+                                <h3>info complémentaire</h3>
+                                <ul>
+                                    <li>Date - <span>2022</span></li>
+                                    <li>languages - <span>html, css, javascript</span></li>
+                                    <li>Web - <span><a href="#">www.celian.fr</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="separateur"></div>
+
+            <div class="pp-main">
+                <div class="pp-main-inner font">
+                    <table>
+                        <tr>
+                            <td style="width: 323px;">
+                                <div class="pp-projet-details-btn outer-shadow hover-in-shadow">Détail du projet <i class = "fas fa-plus"></i></div>
+                            </td>
+                            <td>&nbsp;</td>
+                            <td style="width: 175px;">
+                                <div class="pp-close outer-shadow hover-in-shadow"><i class = "fas fa-arrow-left"></i> Retour</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <br>
+                                <img src="Hololance2.jpg" alt="img" style="min-height:500px; min-width:1000px;" class="pp-img outer-shadow">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- fin popup section-->
+
+
+    <script src="main.js"></script>
+    </body>
+    
+</html>
+
